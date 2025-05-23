@@ -1,7 +1,3 @@
 [build]
-  command   = "npm run build"            # or your SSR script
-  publish   = "dist/JICHO-LANDING-PAGE"  # plugin adds /browser
-  functions = "dist/JICHO-LANDING-PAGE/server"
-
-[[plugins]]
-  package = "@netlify/angular-runtime"
+  command = "npm run build"
+  publish = "dist/JICHO-LANDING-PAGE/browser"
