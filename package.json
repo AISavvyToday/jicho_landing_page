@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --output-path dist/JICHO-LANDING-PAGE/browser",
+    "build": "ng build --configuration production && ng run jicho-landing-page:server:production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
