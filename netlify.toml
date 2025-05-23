@@ -3,8 +3,6 @@
   publish   = "dist/JICHO-LANDING-PAGE"         # plugin will append /browser
   functions = "dist/JICHO-LANDING-PAGE/server"
 
-[[plugins]]
-  package = "@netlify/angular-runtime"
 
 
 [[redirects]]
